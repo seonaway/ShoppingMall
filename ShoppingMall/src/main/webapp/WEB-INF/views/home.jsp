@@ -9,6 +9,6 @@
 	Hello world!  
 </h1>
 
-<P> 깃허브 연동 테스트입니다 </P>
+<P> 테스트 </P>
 </body>
 </html>
