@@ -9,6 +9,6 @@
 	Hello world!  
 </h1>
 
-<P> 테스트 </P>
+<P> 깃허브 커밋 테스트 </P>
 </body>
 </html>
