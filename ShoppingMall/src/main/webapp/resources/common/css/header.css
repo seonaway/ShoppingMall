@@ -1,0 +1,125 @@
+* {
+    font-family: 'Pretendard' !important;
+}
+.wh {
+    width:28px;
+    height: 28px;
+    cursor: pointer;
+}
+#add {
+    width: 33px;
+    height: 26px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+#menu {
+    height: 60px;
+    display: flex;
+    min-width: 1240px;
+    align-items: center;
+    justify-content: center;
+}
+#header {
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #e6e5e7;
+}
+.top_logo {
+    top: 35px;
+    left: 50%;
+    cursor: pointer;
+    position: absolute;
+    transform: translateX(-50%);
+}
+#top_wish,
+#top_cart {
+    margin-right: 35px;
+}
+.left_btn {
+    top: 45px;
+    width: 107px;
+    position: absolute;
+}
+.right_btn {
+    top: 46px;
+    right: 23px;
+    width: 170px;
+    position: absolute;
+}
+#header_logo{
+    width: 90%;
+    height: 115px;
+    margin: 0 auto;
+    min-width: 713px;
+    position: relative;
+}
+ul#menu > li {
+    display: block;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 60px;
+    padding: 0 11.8px;
+}
+ul#menu > li > a {
+    height: 60px;
+    color: #000;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+ul#menu > li > a:hover {
+    color:#E5477F;
+    transition: .5s;
+}
+ul#menu > li > div.top_menu_sub {
+    left: 0;
+    top: 175px;
+    width: 100%;
+    z-index: 10;
+    height: 70px;
+    min-width: 1240px;
+    position: absolute;
+    border-top: 1px solid #e6e5e7;
+    background-color: rgba(255,255,255,0.9);
+}
+ul#menu > li > div.top_menu_sub > ul {
+    width: auto;
+    font-size: 0;
+    margin: 0 auto;
+    display: table;
+    padding-left: 100px;
+}
+ul#menu > li.top_menu > div.top_menu_sub {
+    opacity: 0.1;
+    visibility: hidden;
+}
+ul#menu > li:hover > div.top_menu_sub {
+    opacity: 1;
+    transition: .5s;
+    visibility: visible;
+}
+ul#menu > li > div.top_menu_sub > ul > li {
+    float: left;
+}
+ul#menu > li > div.top_menu_sub > ul > li > a {
+    color: #000;
+    display: block;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 70px;
+    text-decoration: none;
+}
+ul#menu > li:nth-child(11) > a,
+ul#menu > li:nth-child(n+1):nth-child(-n+4) > a {
+    font-weight: 600;
+}
+ul#menu > li > div.top_menu_sub > ul > li > a:hover {
+    color:#E5477F;
+    transition: .5s;
+}
